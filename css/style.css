@@ -1,0 +1,297 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family:'Nunito', sans-serif; 
+}
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a{
+    text-decoration: none;
+    color: #FF441F;
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+}
+h1{
+    font-size: 90px;
+}
+h3{
+    font-size: 23px;
+    margin-top: 10px;
+    color: black;
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
+}
+h2{
+    font-size: 72px;
+    margin-top: 10px;
+    color: #FF441F;
+    font-weight: 200;
+    position: relative;
+    z-index: 2;
+}
+h4{
+    font-size: 23px;
+    margin-top: 23px;
+    margin-left: 150px;
+    color: rgba(255, 255, 255, 0.404);
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
+}
+h6{
+    font-size: 16px;
+    margin-top: 100px;
+    margin-left: 150px;
+    color: rgb(255, 255, 255);
+    font-weight: inherit;
+    position: relative;
+    z-index: 2;
+}
+#title_1{
+    margin: 100px 150px;
+    color: rgba(255, 255, 255, 0.644);
+    font-weight: lighter;
+    position: relative;
+    z-index: 2;
+}
+#title_2{
+    margin-top: 180px;
+    margin-left: 150px;
+    color: #FF441F;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    font-size: 70;
+    border: 4px solid white;
+    padding: 10px 50px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#services_tittle{
+    margin-top: 180px;
+    margin-left: 150px;
+    color: #FF441F;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    font-size: 70;
+    border: 4px solid white;
+    padding: 10px 50px;
+    position: relative;
+    border-radius: 10px;
+}
+
+strong{
+    margin-top: 10px;
+    color: black;
+    font-weight: 900;
+    position: relative;
+    z-index: 2;
+    line-height: 1px;
+}
+
+/*ESTILOS DEL HEADER*/
+body{
+    background-color: #ffffff;
+}
+header{
+    background-color: #ffffff;
+    height: 100vh;
+    border-left: 150px;
+    border-radius: 0px 0px 1000px 0px;
+}
+header nav{
+    height: 75px;
+    margin-top: 38px;
+    float: right;
+}
+header nav li{
+    padding-right: 60px;
+    color: #FF441F;
+    list-style: none;
+}
+ul{
+    display: inline-flex;
+}
+header .logo_main{
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+header .equalizer_header{
+    height: 60%;
+    position: absolute;
+    z-index: 1;
+    top: 12%;
+    right: 15%;
+}
+
+header .phone_header{
+    height: 75%;
+    position: absolute;
+    z-index: 1;
+    top: 34%;
+    right: 12%;
+    filter: drop-shadow(0 12px 12px rgba(0, 0, 0, 0.7));
+}
+
+.logos_apps{
+    margin: 30px 0px 0px 150px;
+    height: 40px;
+    position: relative;
+    z-index: 2;
+}
+.logos_apps img{
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 12px;
+    box-shadow: -7px 22px 25px 0px rgba(0,0,0,0.75);
+}
+.logos_apps .google{
+    margin-left: 35px;
+}
+/*Hero*/
+.hero {
+    position: relative;
+    width: 100vw;
+    height:80vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+    .hero-content {
+    position: relative; 
+    font-family: "Monserrat", sans-serif;
+    color: #FF441F;
+    text-align: left;
+    margin-left: 180px;
+}
+.hero-title {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 180px;
+}
+.hero-subtitle {
+    font-size: 40px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 200;
+    position: relative;
+    z-index: 2;
+}
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/hero_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.hero-content {
+    position: absolute;
+}
+.hero-button {
+    background-color: #FF441F;
+    color: white;
+    border: 1px solid #cb376a;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.hero-button:hover {
+    background-color: black;
+    border: 1px solid #FF441F;
+}
+/*Sección de servicios*/
+#services{
+    height: 60vh;
+    text-align: center;
+}
+.separador{
+    margin: 20px auto;
+}
+.cont_servi{
+    width: 80%;
+    height: 150px;
+    margin: 80px 0px 0px 10%;
+    display: inline-flex;
+}
+.uni_serv{
+    width: 25%;
+    height: 90%;
+    margin: 30px;
+}
+.uni_serv .box_icon{
+    height: 120px;
+    width: 100%;
+    background: #FF441F;
+    border-radius: 18px;
+    margin: auto;
+}
+.box_icon img{
+    height: 70%;
+    vertical-align: middle;
+    margin: 15% auto; 
+}
+.uni_serv .sub{
+    font-size: 22px;
+}
+.uni_serv p{
+    font-size: 22px;
+    margin: 25px 10px 10px 10px;
+    color: rgba(255, 255, 255, 0.315);
+}
+.uni_serv a{
+    color: #FF441F;
+    position: relative;
+    bottom: 0px;
+}
+.service-button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.service-button:hover {
+    background-color: #FF441F;
+    border: 1px solid #FF441F;
+}
+/*About us*/
+#about{
+    height: 100vh;
+}
+.container-about{
+    width: 90%;
+    height: 350px;
+    margin: 80px 0px 0px 10%;
+    display: inline-flex;
+}
+.container-text-about{
+    width: 50%;
+    height: 90%;
+    margin: 30px;
+}
