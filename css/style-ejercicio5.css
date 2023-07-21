@@ -1,0 +1,16 @@
+u{
+    color: green;
+}
+strong{
+    color: red;
+}
+.entiendo{
+    color: black;
+    text-decoration-line: underline overline;
+}
+h4{
+    color: blue;
+}
+h4 u{
+    color: red;
+}
