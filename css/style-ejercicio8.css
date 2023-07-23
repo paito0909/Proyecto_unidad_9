@@ -1,0 +1,30 @@
+#fondomenu{
+    background-color: rgba(196, 156, 196, 0.555);
+    padding: 20px 20px 20px 10px;
+    width: 640px;
+    height: 50px;
+}
+
+#fondomenu ul {
+    list-style: none;
+    margin: 0;
+    padding: auto;
+    }
+    #fondomenu ul li a {
+    width: 150px;
+    height: 40px;
+    margin-left: 1px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+
+    text-decoration: none;
+    display: block;
+    }
+    #fondomenu ul li a:hover {
+    background-color: blue;
+    color: white;
+    }
